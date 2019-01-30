@@ -1,0 +1,101 @@
+/* Default DevCorner Style Setting */
+
+:root{
+  --dc-: #28a745;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background: #292929;
+}
+
+.carousel__frame{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  display: table;
+}
+
+.carousel__slides{
+  display: block;
+}
+
+.carousel__item{
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: inline-block;
+}
+
+.carousel__prev,
+.carousel__next{
+  font-size: 1rem;
+  position: absolute;
+  top: 50%;
+  outline: none;
+}
+
+.brand{
+  margin: 0;
+  padding: 0.5em;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  background: rgba(0,0,0,0.5);
+  border-radius: 5px;
+  font-family: Roboto;
+  z-index: 1;
+  font-size: 3em;
+}
+
+.carousel__prev{
+  left: 2rem;
+}
+
+.carousel__next{
+  right: 2rem;
+}
+
+button:focus{
+  outline: none !important;
+}
+
+button{
+  background: rgba(0,0,0,0);
+  border: none;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* End */
